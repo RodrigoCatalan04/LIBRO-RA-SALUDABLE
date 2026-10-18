@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plato saludable en 3D</title>
+
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <script src="js/orbita.js"></script>
+  <script src="js/sistema.js"></script>
+</head>
+<body>
+  <!-- Vista de revision: muestra todos los grupos con su nombre, sin camara real. -->
+  <a-scene background="color: #0d1f2a" vr-mode-ui="enabled: false">
+    <a-entity plato-saludable="etiquetas: true" rotation="20 0 0"></a-entity>
+    <a-entity camera position="0 5.5 8" rotation="-32 0 0"></a-entity>
+  </a-scene>
+</body>
+</html>

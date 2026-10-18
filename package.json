@@ -1,0 +1,10 @@
+{
+  "name": "libro-ra-alimentacion-saludable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Libro educativo de alimentacion saludable con realidad aumentada (A-Frame 1.6.0, Three.js via AFRAME.THREE y AR.js 3.4.7)",
+  "scripts": {
+    "start": "npx --yes http-server public -p 8000 -a 0.0.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+CARPETA DE RECURSOS
+
+Contenido incluido:
+
+- hiro.png          -> marcador Hiro original de AR.js, listo para imprimir.
+                       Imprimir cuadrado, de 8 a 10 cm, con su borde negro y
+                       su margen blanco. Evitar reflejos y dobleces.
+
+Recursos opcionales de la ampliacion (Paso 12 de la guia). No vienen
+incluidos: hay que crearlos o descargarlos con licencia de uso.
+
+- pagina1.patt      -> patron propio generado con el generador de AR.js, si se
+                       quiere un marcador distinto por pagina.
+- modelo.glb        -> modelo 3D externo (por ejemplo, un alimento o el
+                       aparato digestivo).
+- narracion.mp3     -> narracion de la pagina. El bloque esta comentado en
+                       index.html.
+- explicacion.mp4   -> video explicativo breve. Tambien comentado en
+                       index.html.
+
+El ejemplo principal usa preset="hiro", por lo que index.html no necesita un
+archivo .patt para reconocer el marcador.
+
+Marcador Hiro de referencia:
+https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/hiro.png
+
+Generador de marcadores de AR.js:
+https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
